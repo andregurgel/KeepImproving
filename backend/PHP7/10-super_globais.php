@@ -16,8 +16,3 @@ echo $_SERVER['SCRIPT_FILENAME']."<br>";
 echo $_SERVER['DOCUMENT_ROOT']."<br>";
 echo $_SERVER['SERVER_PORT']."<br>";
 echo "<hr>";
-
-// $_POST
-
-
-// $_GET
