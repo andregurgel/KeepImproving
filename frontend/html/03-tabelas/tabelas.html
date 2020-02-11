@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid #000;
+        }
+        th, td{
+            padding: 7px;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <caption>Cadastro de Clientes</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+        </tr>
+        <tr>
+            <td>Andre Gurgel</td>
+            <td>andreggurgel@gmail.com</td>
+            <td>(99) 99999-9999</td>
+        </tr>
+        <tr>
+            <td>Iago Gurgel</td>
+            <td>iagoggurgel@gmail.com</td>
+            <td>(99) 99999-9999</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total: 1</td>
+        </tr>
+    </table>
 </body>
 </html>
