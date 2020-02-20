@@ -1,0 +1,128 @@
+body {
+    background-color: azure;
+    width: 90%;
+    margin: auto;
+}
+
+div.nome h1{
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: tomato;
+}
+
+div.nome p{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+div.objetivo h1{
+    background-color: tomato;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    border-bottom: solid red;
+}
+
+div.objetivo p{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+div.experiencia h1{
+    background-color: tomato;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    border-bottom: solid red;
+}
+
+div.experiencia p{
+    font-family: sans-serif;
+}
+
+div.experiencia p#empresa{
+    font-weight: bold;
+    font-size: medium;
+}
+
+div.experiencia p#cargo{
+    font-weight: bold;
+    font-size: small;
+}
+
+div.experiencia p#detalhe{
+    font-weight: normal;
+    font-size: small;
+}
+
+div.experiencia p#detalhe1{
+    font-weight: normal;
+    font-size: small;
+}
+
+div.formacao h1{
+    background-color: tomato;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    border-bottom: solid red;
+}
+
+div.formacao p{
+    font-family: sans-serif;
+}
+
+div.formacao p#graduacao{
+    font-weight: bold;
+    font-size: medium;
+}
+
+div.formacao p#data{
+    font-weight: normal;
+    font-size: small;
+}
+
+div.formacao p#facul{
+    font-weight: normal;
+    font-size: small;
+}
+
+div.cursos h1{
+    background-color: tomato;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    border-bottom: solid red;
+}
+
+div.cursos ul{
+    padding-left: 0;
+}
+
+div.cursos li{
+    list-style-position: inside;
+}
+
+div.cursos p{
+    font-family: sans-serif;
+}
+
+div.cursos p#lingua{
+    font-weight: bold;
+    font-size: medium;
+}
+
+div.cursos p#ns{
+    font-weight: normal;
+    font-size: small;
+}
